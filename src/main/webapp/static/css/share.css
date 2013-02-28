@@ -1,0 +1,1863 @@
+@charset "UTF-8";
+/* CSS Document */
+#share {
+	display: block;
+	width: 100%;
+	height: auto;
+	background: url(../images/foundBody-bg.png) repeat-x left top;
+}
+#header {
+	padding: 0;
+	margin: 0;
+	height: 79px;
+}
+.container hgroup {
+	width: auto;
+}
+.container hgroup.logo {
+	width: 306px;
+	float: left;
+}
+.container hgroup.search {
+	width: 414px;
+	float: left;
+	padding: 24px 0 20px 0;
+}
+.container hgroup h1 {
+	display: block;
+}
+.container hgroup .brand {
+	display: block;
+	float: left;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 79px;
+	padding: 0;
+	width: 175px;
+	text-indent: -9999px;
+	background: url(../images/menu-logo.png) no-repeat 0 0;
+}
+#searchform {
+	float: right;
+	margin: 0 5px 0 0;
+	width: 290px;
+	height: auto;
+}
+#searchform input, .sm-top a, #get-cats, select {
+	display: inline;
+	float: left;
+	position: relative;
+	border: 1px solid #D2DFDC;
+	margin: 0;
+	box-shadow: 2px 2px 3px #D2DFDC;
+	-moz-box-shadow: 2px 2px 3px #D2DFDC;
+	-webkit-box-shadow: 2px 2px 3px #D2DFDC;
+}
+#searchform input {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+#searchform input.text-field {
+	outline: none;
+	border-right: none;
+	width: 228px;
+	height: 16px;
+	z-index: 0;
+	background: url(../images/MenuSearch-bg.png) no-repeat 0 0;
+	overflow: hidden;
+	padding: 9px 4px;
+}
+#searchform input.focus {
+	background: url(../images/MenuSearch-bg.png) no-repeat 0 -34px;
+}
+#searchform input#searchsubmit {
+	background: url(../images/MenuSearch-bg.png) no-repeat right top;
+	border-left: 0;
+	text-indent: -9999px;
+	font-size: 0;
+	line-height: 0;
+	width: 51px;
+	height: 34px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+#searchform input#searchsubmit:hover {
+	background: url(../images/MenuSearch-bg.png) no-repeat right bottom;
+}
+#top-nav .nav {
+	position: relative;
+	width: auto!important;
+	width: 164px;
+	min-width: 164px;
+	left: 0;
+	display: inline;
+	float: left;
+	margin: 0 0px 0px 4px;
+	height: 79px;
+}
+#top-nav .nav li {
+	display: block;
+	float: left;
+	line-height: 79px;
+}
+#nav li a, .nav-listing li a {
+	display: block;
+}
+#nav li a img {
+	padding-top: 17px;
+}
+#top-nav .nav li.active {
+	background: url(../images/MenuDisjunctive1.png) no-repeat right center;
+}
+#top-nav .nav li a {
+	font-size: 14px;
+	color: #f60;
+	font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float: none;
+	padding: 10px 0 11px;
+	line-height: 57px;
+	height: 57px;
+	width: 41px;
+	text-decoration: none;
+	text-align: center;
+	/*text-shadow: 0 2px 1px rgba(0, 0, 0, 0.85);*/
+	outline: none;
+	opacity: 1;
+	-webkit-transition: font-size 0.2s ease-out;
+	-moz-transition: font-size 0.2s ease-out;
+	transition: font-size 0.2s ease-out;
+}
+#primary-nav {
+	background: none;
+	font-size: 14px;
+}
+#primary-nav hgroup {
+	float: right;
+}
+#primary-nav .nav-listing {
+	position: relative;
+	width: auto!important;
+	width: 500px;
+	min-width: 500px;
+	left: 0;
+	display: inline;
+	float: left;
+	margin: 0px 3px 0px 1px;
+	height: 41px;
+}
+#primary-nav .nav-listing li {
+	display: block;
+	float: left;
+	line-height: 26px;
+	padding: 8px 18px 7px 18px;
+}
+#primary-nav .nav-listing li.Interval {
+	background: url(../images/MenuDisjunctive2.png) no-repeat right center;
+}
+#primary-nav .nav-listing li a {
+	font-size: 14px;
+	color: #100A00;
+	font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float: none;
+	padding: 0 15px;
+	line-height: 26px;
+	height: 26px;
+	font-weight: bold;
+	width: auto;
+	text-decoration: none;
+	text-align: center;
+	/*text-shadow: 0 2px 1px rgba(0, 0, 0, 0.85);*/
+	outline: none;
+	opacity: 1;
+	-webkit-transition: font-size 0.2s ease-out;
+	-moz-transition: font-size 0.2s ease-out;
+	transition: font-size 0.2s ease-out;
+}
+#primary-nav .nav-listing .active a, #primary-nav .nav-listing .active a:hover, #primary-nav .nav-listing a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #FD8D00;
+	font-size: 14px;
+	text-shadow: 0 1px 1px rgba(34, 25, 25, 0.3);
+	opacity: 1;
+	box-shadow: 0 1px 1px rgba(34, 25, 25, 0.3);
+	-webkit-box-shadow: 0 1px 1px rgba(34, 25, 25, 0.3);
+	-moz-box-shadow: 0 1px 1px rgba(34, 25, 25, 0.3);
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+#primary-nav hgroup .slogan {
+	margin: 0;
+	float: left;
+	display: block;
+	width: 400px;
+	height: 21px;
+	padding: 10px;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+	color: #666;
+}
+#primary-nav hgroup .slogan span {
+	line-height: 21px;
+	font-size: 13px;
+}
+.main {
+	height: 308px;
+	background: none;
+	padding-top: 20px;
+	padding-bottom: 18px;/*background: #ccc;*/
+}
+#slides hgroup {
+	width: 969px;
+	height: 310px;
+	margin: 0 auto;
+}
+/*#slides hgroup #slider,#slides hgroup #slider div{width:750px; height:308px; margin:0 auto;}*/
+
+#slides hgroup #feature_list {
+	width: 969px;
+	height: 310px;
+	position: relative;
+	overflow: visible;
+}
+#slides hgroup #feature_list ul {
+	position: absolute;
+	top: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	z-index: 0;
+}
+#slides hgroup #feature_list ul#tabs {
+	right: 0;
+	z-index: 3;
+	width: 223px;
+	height: 300px;
+	padding: 8px 0 0 0;
+}
+#slides hgroup #feature_list ul#tabs li {
+	font-size: 12px;
+	font-family: Arial;
+	display: block;
+	margin-bottom: 4px;
+	width: auto;
+	height: auto;
+}
+#slides hgroup #feature_list ul#tabs li h3 {
+	color: #fff;
+	display: inline;
+	font: normal 18px/30px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+#slides hgroup #feature_list ul#tabs li span {
+	font-size: 12px;
+}
+#slides hgroup #feature_list ul#tabs li img {
+	padding: 5px;
+	border: none;
+	float: left;
+	margin: 10px 10px 0 0;
+}
+#slides hgroup #feature_list ul#tabs li a {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45);
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px 10px 10px 15px;
+	height: 37px;
+	outline: none;
+	background: url(../images/SlideSwitchingLabel.png) no-repeat 5px 0px;
+	text-decoration: none;
+}
+#slides hgroup #feature_list ul#tabs li a:hover {
+	text-decoration: none;
+}
+#slides hgroup #feature_list ul#tabs li a.current {
+	background: url(../images/SlideSwitchingLabelHover.png) no-repeat -2px 0px;
+	color: #ffc600;
+	width: 198px;
+}
+#slides hgroup #feature_list ul#tabs li a.current:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+#slides hgroup #feature_list ul#tabs li a.current sapn {
+	color: #ffc600;
+}
+ul#output {
+	left: 0;
+	width: 750px;
+	height: 308px;
+	position: relative;
+}
+ul#output li {
+	position: absolute;
+	width: 750px;
+	height: 308px;
+	-webkit-box-shadow: 4px 1px 2px 0px rgba(74, 74, 74, 0.3);
+	-moz-box-shadow: 4px 1px 2px 0px rgba(74, 74, 74, 0.3);
+	box-shadow: 4px 1px 2px 0px rgba(74, 74, 74, 0.3);
+	background: url(../images/SlideBanner-bg.png) repeat-x left top;
+	border: 1px solid #f3e2cc;
+	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+ul#output li .overview {
+	width: 208px;
+	height: 288px;
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border: 1px dashed #b6b3a9;
+	border-left: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+#slides hgroup #feature_list figure {
+	width: auto;
+	padding: 0 15px;
+	line-height: 47px;
+	height: 47px;
+	font-size: 24px;
+	color: #fff;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	margin: 0;
+	z-index: 4;
+}
+#slides hgroup #feature_list figure img {
+	margin-left: 10px;
+}
+#slides hgroup #feature_list .recommend {
+	width: 155px;
+	padding: 0;
+	height: 47px;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	z-index: 3;
+	background-color: black;
+	filter: alpha(opacity=40);
+	-moz-opacity: .4;
+	-khtml-opacity: .4;
+	opacity: .4;
+	margin: 0;
+}
+ul#output li .overview section {
+	width: 206px;
+	height: 65px;
+	position: relative;
+}
+ul#output li .overview section a, ul#output li .overview section a:hover {
+	text-decoration: none;
+}
+ul#output li .overview section a:hover {
+	color: #f60;
+}
+ul#output li .overview section h2 a {
+	font-size: 24px;
+	color: #333;
+	padding-left: 8px;
+	display: block;
+	line-height: 30px;
+	font-weight: normal;
+}
+ul#output li .overview section .cuisines, ul#output li .overview section .consumption {
+	font-size: 11px;
+	line-height: 32px;
+	color: #333;
+}
+ul#output li .overview section .cuisines, article.post section .cuisines {
+	width: auto;
+	text-align: left;
+	display: block;
+	float: left;
+	padding-left: 4px;
+}
+ul#output li .overview section .consumption, article.post section .consumption {
+	width: auto;
+	text-align: right;
+	display: block;
+	float: right;
+	padding-right: 4px;
+}
+ul#output li .overview section .consumption em {
+	color: #F60;
+}
+#slides hgroup #feature_list ul#output li figure {
+	width: 138px;
+	padding: 0;
+	height: 130px;
+	position: absolute;
+	left: 392px;
+	top: 178px;
+	z-index: 2;
+}
+#slides hgroup #feature_list ul#output li figure dl {
+	padding: 6px;
+}
+#slides hgroup #feature_list ul#output li figure em {
+	width: 23px;
+	height: 23px;
+	margin-top: 3px;
+	margin-right: 3px;
+	display: inline-block;
+	float: left;
+}
+#slides hgroup #feature_list ul#output li figure .regional {
+	background: url(../images/bannerIcon.png) no-repeat 0px 1px;
+}
+#slides hgroup #feature_list ul#output li figure .like {
+	background: url(../images/bannerIcon.png) no-repeat 0px -25px;
+}
+#slides hgroup #feature_list ul#output li figure .telephone {
+	background: url(../images/bannerIcon.png) no-repeat 0px -53px;
+}
+#slides hgroup #feature_list ul#output li figure .comments {
+	background: url(../images/bannerIcon.png) no-repeat 0px -78px;
+}
+#slides hgroup #feature_list ul#output li figure dl dd {
+	line-height: 30px;
+}
+#slides hgroup #feature_list ul#output li figure a {
+	color: #fff;
+	text-decoration: none;
+}
+#slides hgroup #feature_list ul#output li figure a:hover {
+	color: #F90;
+}
+#slides hgroup #feature_list ul#output li .InfoList {
+	width: 138px;
+	padding: 0;
+	height: 130px;
+	position: absolute;
+	left: 392px;
+	top: 178px;
+	z-index: 1;
+	background-color: black;
+	filter: alpha(opacity=40);
+	-moz-opacity: .4;
+	-khtml-opacity: .4;
+	opacity: .4;
+	margin: 0;
+}
+ul#output li .overview .content {
+	padding: 2px 5px;
+	line-height: 20px;
+	font-size: 12px;
+	letter-spacing: 0px;
+}
+ul#output li .shops, .featured-img .Name .referrer {
+	position: absolute;
+	bottom: 13px;
+	right: 17px;
+	z-index: 3;
+	padding: 0px;
+	text-decoration: none;
+	font-size: 11px;
+	color: #333;
+	background: none;
+	-moz-border-radius: 5px;
+	width: auto !important;
+	width: 97px;
+	min-width: 97px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	text-align: right;
+}
+ul#output li .shops img, .featured-img .Name .referrer img {
+	float: right;
+	margin: 3px 0 0 2px;
+}
+ul#output li a:hover.shops img {
+	-webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+ul#output li a:hover {
+	background: none;
+	color: #f60;
+}
+.clear {
+	clear: both;
+}
+#Leakage-nav {
+	background: none;
+	margin-top: 23px;
+}
+#Leakage-nav .container {
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(74, 74, 74, 0.3);
+	-moz-box-shadow: 0px 1px 1px 0px rgba(74, 74, 74, 0.3);
+	box-shadow: 0px 1px 1px 0px rgba(74, 74, 74, 0.3);
+	margin-top: 4px;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	height: 43px;
+	background: url(../images/FourCaseTexture.png) repeat;
+	z-index: 10;
+	position: static;
+}
+#Leakage-nav .sixteen {
+	height: 43px;
+	overflow: visible;
+	text-shadow: 0 1px 0 white;
+	display: block;
+	width: auto;
+	margin: 0;
+	float: none;
+}
+#Leakage-nav .sixteen hgroup {
+	float: right;
+}
+#Leakage-nav .nav-label {
+	margin-right: 15px;
+	color: #333;
+	line-height: 41px;
+	position: static;
+	font-size: 24px;
+	height: 41px;
+	float: left;
+	padding-left: 14px;
+}
+#Leakage-nav .nav-label img {
+	margin-left: 5px;
+}
+#Leakage-nav hgroup .sort {
+	color: #100a00;
+	display: block;
+	float: left;
+	height: 31px;
+	line-height: 31px;
+	margin: 0;
+	padding: 6px;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+	width: 400px;
+}
+#Leakage-nav hgroup .sort dl {
+	float: right;
+}
+#Leakage-nav hgroup .sort dl dt, #Leakage-nav hgroup .sort dl dd {
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 31px;
+	padding: 0 2px;
+}
+#Leakage-nav hgroup .sort dl dd a {
+	font-size: 14px;
+	color: #100A00;
+	font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float: none;
+	padding: 4px 11px;
+	line-height: 31px;
+	height: 31px;
+	width: auto;
+	text-decoration: none;
+	text-align: center;
+	/*text-shadow: 0 2px 1px rgba(0, 0, 0, 0.85);*/
+	outline: none;
+	opacity: 1;
+	-webkit-transition: font-size 0.2s ease-out;
+	-moz-transition: font-size 0.2s ease-out;
+	transition: font-size 0.2s ease-out;
+}
+#Leakage-nav hgroup .sort .active a, #Leakage-nav hgroup .sort .active a:hover, #Leakage-nav hgroup .sort a:hover {
+	background-color: #fff;
+	border-radius: 2px 2px 2px 2px;
+	box-shadow: 0 1px 1px rgba(34, 25, 25, 0.3);
+	color: #f60;
+	font-size: 14px;
+	opacity: 1;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(34, 25, 25, 0.3);
+}
+#content-wrapper {
+	background: none;
+	padding: 6px 0;
+	height: auto !important;
+	height: 400px;
+	min-height: 400px;
+}
+#content-wrapper .container {
+	position: static;
+	z-index: 2;
+}
+#content {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	float: left;
+}
+#content2 .Registerform, #content3 .Registerform {
+	width: 972px;
+}
+#content2 .DiningRoom, #content3 .DiningRoom, #content4 .DiningRoom {
+	padding-top: 3px;
+}
+#content2 .DiningRoom .interlaced label, #content3 .DiningRoom .interlaced label {
+	width: 84px;
+}
+#content2 #J-channel-num, #content4 #J-channel-num, #content3 #J-channel-num {
+	display: inline-block;
+}
+#content2 .page, #content4 .page, #content3 .page {
+	border-top: 1px solid #eee;
+	padding-top: 2px;
+	background: whiteSmoke;
+	padding-bottom: 4px;
+	height: auto;
+}
+#content2 .DiningRoom .restaurantList {
+	border-collapse:collapse;
+	width: 938px;
+	margin: 10px auto;
+	height: auto;
+	white-space: normal;
+	background: #fff;
+}
+#content4 .DiningRoom .likeList {
+	border-collapse: collapse;
+	width: 624px;
+	margin: 10px auto;
+	height: auto;
+	white-space: normal;
+	background: #fff;
+}
+#content2 .DiningRoom .restaurantList td, #content2 .DiningRoom .restaurantList th, #content4 .DiningRoom .likeList td, #content4 .DiningRoom .likeList th {
+	line-height: 32px;
+}
+#content2 .DiningRoom .restaurantList th, #content4 .DiningRoom .likeList th {
+	height: 32px;
+	text-align: left;
+	color: #333;
+	border-bottom: 1px solid #d0d0d0;
+	text-indent: 8px;
+	font: bold 14px/32px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	background: #f5f5f5;
+	text-align: center;
+}
+#content4 .DiningRoom .likeList .Name {
+	width: 44%;
+}
+#content2 .DiningRoom .restaurantList .picImg {
+	width: 130px;
+}
+#content2 .DiningRoom .restaurantList .operation {
+	width: 17%;
+}
+#content2 .DiningRoom .restaurantList .Name {
+	width: 28%;
+}
+#content2 .DiningRoom .restaurantList tbody td, #content4 .DiningRoom .likeList tbody td {
+	border-bottom: 1px dashed #CCC;
+	background: #fdfdfd;
+	text-align: center;
+}
+#content2 .DiningRoom .restaurantList tbody tr:last-of-type td, #content4 .DiningRoom .likeList tbody tr:last-of-type td {
+	border-bottom: none;
+}
+#content2 .DiningRoom .restaurantList tfoot td, #content4 .DiningRoom .likeList tfoot td {
+	width: 100%;
+}
+#content2 .DiningRoom .restaurantList tr td:nth-of-type(2) {
+	color: #f60;
+	padding-left: 8px;
+	text-align: left;
+}
+#content2 .DiningRoom .restaurantList tr td:nth-of-type(2) a {
+	text-decoration: none;
+}
+#content2 .DiningRoom .restaurantList tr td:nth-of-type(2) a:hover {
+	text-decoration: underline;
+	color: #f60;
+}
+#content2 .DiningRoom .restaurantList tbody td img {
+	margin: 8px auto;
+	padding: 5px;
+	background: #eee;
+	box-shadow: 0 1px 1px rgba(34, 25, 25, 0.2);
+	-webkit-box-shadow: 0 1px 1px rgba(34, 25, 25, 0.2);
+	-moz-box-shadow: 0 1px 1px rgba(34, 25, 25, 0.2);
+}
+#content2 .DiningRoom .restaurantList tbody td.optStyle a, #content4 .DiningRoom .likeList tbody td.optStyle a {
+	display: inline-block;
+	padding: 3px 8px;
+	color: #5c7587;
+	text-decoration: none;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	line-height: 14px;
+	margin-right: 8px;
+	text-indent: 0px;
+}
+#content2 .DiningRoom .restaurantList tbody td.optStyle a:hover, #content4 .DiningRoom .likeList tbody td.optStyle a:hover {
+	background: #f60;
+	color: #fff;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+#content2 .DiningRoom .introduce-title, #content3 .DiningRoom .introduce-title, #content4 .DiningRoom .introduce-title {
+	padding-top: 8px;
+	font-size: 16px;
+	line-height: 22px;
+}
+#content2 .DiningRoom .introduce-title .introduce, #content3 .DiningRoom .introduce-title .introduce, #content4 .DiningRoom .introduce-title .introduce {
+	padding-left: 20px;
+}
+.RestaurantSet {
+	padding: 4px 4px 4px 0px;
+	position: relative;
+	width:auto !important;
+	width:284px;
+	min-width:284px;
+	height:92px;
+	overflow:hidden;
+	margin: 0 auto;
+}
+.RestaurantSet .RestName {
+	line-height: 28px;
+	text-indent: 0px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #666;
+	width: auto;
+	padding: 8px 0 0 143px;
+	position: absolute;
+	left: 0px;
+	top: 6px;
+	height: auto;
+}
+.RestaurantSet .RestName a:hover{ text-decoration:underline; color:#f60; }
+.RestaurantSet .listCuisines {
+	width: 161px;
+	font-size: 14px;
+	position: absolute;
+	left: 0px;
+	padding: 0 0 0 136px;
+	bottom: 12px;
+	line-height: 32px;
+	height: 32px;
+}
+.RestaurantSet .listCuisines .cuisines {
+	width: auto;
+	text-align: left;
+	display: block;
+	float: left;
+	background: url(../images/list-icon-sprite.png) no-repeat 3px 8px;
+	padding-left: 20px;
+	height: auto;
+	margin-left: 2px;
+	font-size: 12px;
+}
+.RestaurantSet .listCuisines .hearts {
+	width: auto!important;
+	width: 53px;
+	min-width: 53px;
+	text-align: left;
+	display: block;
+	float: right;
+	padding-right: 4px;
+	background: url(../images/list-icon-sprite.png) no-repeat 4px -88px;
+	padding-left: 20px;
+	height: auto;
+	font-size: 12px;
+	height: auto;
+}
+.RestaurantSet .listCuisines .hearts em {
+	font-size: 12px;
+	color: #f60;
+	font-style: normal;
+}
+.RestaurantSet .RestNews {
+	background: url(../images/new-icon.png) no-repeat 0px 0px;
+	width:34px;
+	height:29px;
+	text-align: center;
+	text-indent: -9999px;
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	left: 102px;
+	top: 11px;
+}
+.RestaurantSet img {
+	display: block;
+	float: left;
+	margin: 7px 2px 7px 4px;
+	padding: 5px;
+	background: #EEE;
+	box-shadow: 0 1px 1px rgba(34, 25, 25, 0.2);
+	-webkit-box-shadow: 0 1px 1px rgba(34, 25, 25, 0.2);
+	-moz-box-shadow: 0 1px 1px rgba(34, 25, 25, 0.2);
+}
+.lettersTell {
+	width: auto!important;
+	width: 160px;
+	min-width: 160px;
+	float: left;
+	padding: 0px 4px 0px 0px;
+	height:auto;
+}
+.lettersTell .RestName, .lettersTell .listCuisines {
+	padding-left: 64px;
+	font-size: 12px;
+	width: auto;
+}
+.lettersTell .RestName {
+	color: #98D400;
+	padding-top:2px;
+	padding-left:68px;
+}
+.lettersTell .listCuisines {
+	height: 24px;
+	line-height: 24px;
+	bottom:2px;
+}
+.lettersTell .listCuisines .cuisines {
+	font-size: 12px;
+	lline-height: 24px;
+	height: 24px;
+	background: url(../images/list-icon-sprite.png) no-repeat 3px -140px;
+}
+#post-listing {
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+}
+.isotope {
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	-ms-transition-property: height, width;
+	-o-transition-property: height, width;
+	transition-property: height, width;
+}
+.isotope-item {
+	z-index: 2;
+}
+.isotope, .isotope .isotope-item {
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-ms-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+.isotope .isotope-item {
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	-ms-transition-property: -ms-transform, opacity;
+	-o-transition-property: top, left, opacity;
+	transition-property: transform, opacity;
+}
+/*餐厅分享位置信息*/
+
+
+#slogan {
+	height: 40px;
+	background: none;
+	font-size: 14px;
+}
+#slogan .container {
+	padding-top: 18px;
+	padding-bottom: 2px;
+	background: url(../images/separator.gif) repeat-x left bottom;
+	height: 35px;
+}
+.Formlist {
+	padding-top: 4px;
+}
+#slogan .container .switching {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+#slogan .container .switching .slogan-title {
+	width: 210px;
+}
+#slogan .slogan-title .slogan {
+	font: normal 24px/1.4 "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	color: #666;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+	text-indent: 10px;
+}
+#slogan .slogan-title .slogan .notice {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #f60;
+	padding: 0 10px;
+}
+#slogan .container .Share_menu {
+	position: absolute;
+	left: 250px;
+	width: 620px;
+	height: 36px;
+	top: 0px;
+	z-index: 20;
+}
+#slogan .container .Share_menu li {
+	float: left;
+	background: url(../images/Body-bg.png) repeat;
+	text-align: center;
+	cursor: pointer;
+	list-style: none;
+	padding: 7px 41px 7px 41px;
+	margin-right: 8px;
+	border: 1px solid #DBDBDB;
+	border-bottom: none;
+	border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	font-size: 14px;
+}
+#slogan .container .Share_menu li span.notice, #slogan .container .Share_menu li.selected span.notice {
+	font-size: 14px;
+	color: #F30;
+	padding: 2px 3px;
+}
+#slogan .container .Share_menu li.hover {
+	color: #f90;
+	background: #f5f5f5;
+}
+#slogan .container .Share_menu li.selected {
+	color: #f60;
+	background: #fff;
+	font-weight: bold;
+	padding: 8px 41px 8px 41px;
+}
+.DiningRoom {
+	background: #fff;
+	padding: 20px 8px 20px 8px;
+	height: auto !important;
+	height: 400px;
+	min-height: 400px;
+	background: white;
+	border: 1px solid #DBDBDB;
+	border-bottom: 2px solid #DBDBDB;
+	box-shadow: 0 1px 1px rgba(34, 25, 25, 0.2);
+	-webkit-box-shadow: 0 1px 1px rgba(34, 25, 25, 0.2);
+	-moz-box-shadow: 0 1px 1px rgba(34, 25, 25, 0.2);
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+.DiningRoom .notice {
+	padding: 0px 5px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	background: #FDFDFD;
+}
+.DiningRoom .Private {
+	width: 100%;
+	overflow: hidden;
+	padding: 0px;
+	margin-bottom: 3px;
+	background: #FDFDFD;
+}
+.DiningRoom .notice li {
+	height: 29px;
+	line-height: 29px;
+	padding-left: 24px;
+	background: url(../images/ico_arrow_blue.gif) no-repeat 9px 11px;
+	border-bottom: 1px dashed #DBDBDB;
+}
+.DiningRoom .Private li {
+	height: auto;
+	padding: 2px 0px;
+	border-bottom: 1px dashed #DBDBDB;
+	width: 100%;
+	float: left;
+}
+.DiningRoom .Private li .wrap {
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.DiningRoom .Private li .lines {
+	border-top: 1px dashed #DBDBDB;
+	display: none;
+}
+.dialogue {
+	display: block;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	margin: 20px 10px 0px 0px;
+	width: auto;
+}
+.dialogue a {
+	padding: 0 5px;
+	text-decoration: none;
+	line-height: 30px;
+	color: #F60;
+}
+.DiningRoom .Private li .RestNews {
+	float:none;
+	margin-left:160px;
+	line-height:1.3;
+	padding-right:12px;
+	text-align:left;
+	padding-top: 11px;
+	font-size: 12px;
+	display: block;
+}
+.DiningRoom .notice li span {
+	display: block;
+	width: 100%;
+	height: 29px;
+	float: left;
+}
+.DiningRoom .notice li span a {
+	color: #666;
+	float: left;
+	line-height: 29px;
+	text-decoration: none;
+}
+.DiningRoom .notice li span a:hover {
+	text-decoration: underline;
+}
+.DiningRoom .notice li span a strong.green {
+	color: #0C0;
+	font-style: normal;
+	font-weight: normal;
+}
+.DiningRoom .notice li span a strong.blue {
+	color: #39F;
+	font-style: normal;
+	font-weight: normal;
+}
+.DiningRoom .notice li span em {
+	font-style: normal;
+	font-weight: normal;
+	float: right;
+	line-height: 29px;
+	color: #F60;
+	margin-right: 10px;
+}
+.DiningRoom .notice li:last-of-type, .DiningRoom .Private li:last-of-type {
+	border-bottom: none;
+}
+.DiningRoom .introduce-title {
+	padding: 15px 0 4px 0px;
+	margin-bottom: 0px;
+}
+.DiningRoom .introduce-title .introduce {
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: normal;
+	color: #333;
+	margin-bottom: 3px;
+}
+.DiningRoom .introduce-title .introduce a{ font-size:16px;}
+.DiningRoom .introduce-title h3.introduce {
+	font-size: 14px;
+	line-height: 36px;
+	font-weight: normal;
+	color: #666;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+.DiningRoom .introduce-title .supplemental {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #666;
+	margin-bottom: 3px;
+	text-indent: 20px;
+}
+.DiningRoom h1 {
+	padding-bottom: 1px;
+	border-bottom: 1px solid #DBDBDB;
+	margin-bottom: 35px;
+	font: bold 32px/1.5em "微软雅黑", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+#contentForm .DiningRoom {
+	padding-top: 5px;
+}
+#contentForm .introduce-title {
+	padding-top: 0px;
+}
+#contentForm .introduce {
+	padding-left: 14px;
+}
+.DiningRoom p {
+	font: 11px/1.3 "Helvetica Neue", Arial;
+	color: #666;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #b7ddf2;
+	padding-bottom: 10px;
+}
+.DiningRoom label {
+	display: block;
+	font-weight: normal;
+	text-align: right;
+	width: 67px;
+	float: left;
+	font-size: 14px;
+	color: #666;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 22px;
+	background: none;
+	margin-left: 40px;
+	margin-bottom: 0px;
+}
+.DiningRoom .small {
+	color: #666;
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: right;
+	width: 67px;
+}
+.DiningRoom input {
+	margin-left: 0px;
+}
+.DiningRoom input[type="radio"] {
+-webkit-appearance: radio;
+box-sizing: border-box;
+margin-left:14px;
+}
+.DiningRoom input.neutral {
+	float: left;
+	font-size: 14px;
+	padding: 4px 2px;
+	border: 1px solid #cecece;
+	width: 220px;
+	margin: 1px 0px 1px 14px;
+	height: 18px;
+}
+.DiningRoom select {
+	font-size: 14px;
+	padding: 4px 2px;
+	border: 1px solid #cecece;
+	height: 30px;
+}
+.DiningRoom textarea.neutral {
+	float: left;
+	margin-left: 14px;
+	border-color: #cecece;
+}
+.DiningRoom input.radio {
+}
+.DiningRoom button {
+	clear: both;
+	border-bottom: 2px solid #506e00;
+	margin-left: 220px;
+	width: 125px;
+	height: 32px;
+	text-align: center;
+	line-height: 31px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	background: #7ba801;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	padding: 0px;
+}
+.DiningRoom button.btnOrng, .DiningRoom a.btnOrng {
+	background: #fdb876;
+	border-bottom: 2px solid #fb962d;
+	height: 32px;
+	width: 96px;
+	font-size: 14px;
+	margin-left: 20px;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-decoration: none;
+	*padding-bottom:2px;
+	*border-bottom:none;
+	*background:#fdb876;
+}
+
+.DiningRoom button.btnOrng{ clear:none; float:left;}
+
+.DiningRoom button.save {
+	margin-left: 163px;
+}
+.lowrong {
+	width: auto !important;
+	width: 250px;
+	min-width: 250px;
+	height: 31px;
+	line-height: 31px;
+	display: inline-block;
+	font-size: 12px;
+	float: none;
+	margin-left: 5px;
+	color: red;
+}
+.audit {
+	padding: 3px 25px;
+	line-height: 1.5;
+	display: block;
+	width: auto;
+	margin: 0 auto;
+	height: 40px;
+}
+.audit .application {
+	display: block;
+	margin-top: 4px;
+	float: left;
+	padding: 3px 8px;
+	background: #f60;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	color: #fff;
+	text-decoration: none;
+}
+.spacer {
+	padding: 10px 0px;
+	text-align: center;
+	color: #999;
+	margin-left: -28px;
+}
+.iisi {
+	margin-left: 155px;
+	margin-bottom: 4px;
+	height: 16px;
+	line-height: 16px;
+	color: #f60;
+	visibility: hidden;
+}
+.Formlist .iisi {
+	visibility: visible;
+}
+.iisiShow {
+	margin-bottom: 20px;
+	visibility: visible;
+	padding-bottom: 10px;
+}
+.DiningRoom input.czl {
+	vertical-align: middle;
+	float: left;
+	padding: 4px 2px;
+	border: 1px solid #CECECE;
+	width: 16px;
+	margin: 3px 0px 3px 14px;
+	height: 16px;
+}
+.jizme {
+	display: inline-block;
+	color: #999;
+	margin-top: 5px;
+}
+.camouflage {
+	width: auto;
+	height: auto;
+	display: none;
+	position: relative;
+	z-index: 100;
+	background: #fff;
+}
+.lxieyi a {
+	color: #743;
+	text-decoration: none;
+}
+.lxieyi a:hover {
+	color: #f60;
+	text-decoration: underline;
+}
+input:focus, button:focus {
+	/*outline: 3px solid #f90;*/
+}
+input:active, button:active {
+	/*outline: 3px solid #aaa;*/
+}
+.DiningRoom .interlaced, #registerRight .IssuedNotice .profile .interlaced {
+	height: 33px;
+	line-height: 32px;
+	width: auto;
+	*width:100%;
+	margin-bottom: 0px;
+}
+#registerRight .IssuedNotice .profile .interlaced {
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#registerRight .IssuedNotice .profile .upload {
+	padding-top: 25px;
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+}
+#registerRight .IssuedNotice .profile .upload .personal {
+	display: block;
+	margin: 5px auto;
+	width: 148px;
+	position: relative;
+	height: 148px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+#registerRight .IssuedNotice .profile .upload .personal strong {
+	position: absolute;
+	line-height: 148px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #eee;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	display: inline-block;
+	width: 148px;
+}
+#registerRight .IssuedNotice .profile .upload .personal img {
+	background: url(../images/WaterHead.png) no-repeat 0 0;
+	width: 148px;
+	height: 148px;
+	background: #666;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: none;
+	z-index: 0;
+}
+#registerRight .IssuedNotice .profile .interlaced label {
+	display: block;
+	font-weight: normal;
+	text-align: right;
+	width: 67px;
+	float: left;
+	font-size: 14px;
+	color: #666;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 3px;
+	background: none;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+#registerRight .IssuedNotice .profile .interlaced .btnOrng {
+	float: left;
+	font-size: 14px;
+	padding: 4px 2px;
+	border: 1px solid #CECECE;
+	width: 200px;
+	margin: 1px 0px 1px 14px;
+	height: 18px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: -1px -1px 0 #A6BBB7;
+	-moz-box-shadow: -1px -1px 0 #A6BBB7;
+	-webkit-box-shadow: -1px -1px 0 #A6BBB7;
+	background: #fff;
+}
+#registerRight .IssuedNotice .profile a.immediately {
+	padding: 4px 14px;
+	background: #EEE;
+	border-bottom: 2px solid #BBB;
+	font-size: 14px;
+	color: #666;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	text-decoration: none;
+}
+.DiningRoom .determine {
+	padding-left: 119px;
+}
+#content2 .DiningRoom .determine, #content3 .DiningRoom .determine {
+	padding-left: 333px;
+}
+.support .wild {
+	height: 80px;
+}
+.support .wild .proxy {
+	float: left;
+	margin-left: 16px;
+	width: 404px;
+	height: auto !important;
+	height: 75px;
+	min-height: 75px;
+	display: block;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+.support .wild .proxy .unchecked, .support .wild .proxy .checked {
+	line-height: 18px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	float: left;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	cursor: pointer;
+	white-space:nowrap;
+}
+.support .wild .proxy .checked {
+	background: url(../images/ToHook-icon.png) no-repeat right 9px;
+}
+.support .address {
+	height: 73px;
+}
+.support .editor {
+	height: 424px;
+	margin-bottom: 8px;
+}
+.support .editor2 {
+	height: auto;
+	margin-bottom: 8px;
+}
+.support .editor-inside {
+	width: 600px;
+	margin: 0 auto;
+	height: auto !important;
+	height: 418px;
+	min-height: 418px;
+	border: 1px solid #eee;
+}
+.support .editor-inside2 {
+	width: 600px;
+	margin: 0px auto 0px 142px;
+	height: auto !important;
+	height: 240px;
+	min-height: 240px;
+	border: 1px solid #eee;
+}
+.support .editor-inside2 .log {
+	padding: 10px;
+}
+.support .editor-inside2 .log li {
+	line-height: 30px;
+	color: #666;
+	text-align: left;
+	font-size: 12px;
+	border-bottom: 1px dashed #eee;
+}
+.support .editor-inside2 .log li a {
+	text-decoration: underline;
+	color: #f60;
+}
+.support .address .proxy {
+	float: left;
+	margin-left: 16px;
+	width: 404px;
+	height: auto !important;
+	height: 90px;
+	min-height: 90px;
+	display: block;
+	background: #fff;
+	border: 1px solid #ddd;
+	text-align: left;
+	padding: 0px;
+}
+.support .scapegoat {
+	float: left;
+	font-size: 14px;
+	padding: 4px 2px;
+	border: 1px solid #CECECE;
+	width: auto !important;
+	width: 233px;
+	min-width: 233px;
+	margin: 1px 0px 1px 14px;
+	height: auto!important;
+	height: 20px;
+	min-height: 20px;
+}
+.IssuedNotice .profile .widget-title {
+	border-bottom: 1px solid #DBDBDB;
+}
+.IssuedNotice .profile .widget-title ul.Logins {
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+	width: auto;
+	height: 28px;
+	line-height: 28px;
+}
+.IssuedNotice .profile .widget-title ul.Logins li {
+	float: left;
+	background: url(../images/Body-bg.png) repeat-x 0 0;
+	text-align: center;
+	cursor: pointer;
+	list-style: none;
+	padding: 5px 14px;
+	margin-right: 5px;
+	border: 1px solid #DBDBDB;
+	border-bottom: none;
+	border-radius: 2px 2px 0 0;
+	-webkit-border-radius: 2px 2px 0 0;
+	-moz-border-radius: 2px 2px 0 0;
+	font-size: 14px;
+	line-height: 18px;
+}
+.IssuedNotice .profile .widget-title ul.Logins li.selected, .IssuedNotice .profile .widget-title ul.Logins li.hover {
+	background: #fff;
+	color: #f60;
+}
+.IssuedNotice .profile .featured-img {
+	position: relative;
+	margin: 7px 0px;
+	height: 183px;
+}
+.IssuedNotice .profile .featured-img .thumbnail img {
+	width: 302px;
+	height: 183px;
+	background: #666;
+	display: block;
+}
+.IssuedNotice .profile .featured-img .Namebg {
+	background-color: black;
+	height: 35px;
+	left: 0;
+	margin: 0;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	padding: 0;
+	position: absolute;
+	bottom: 0px;
+	width: 302px;
+	z-index: 1;
+}
+.IssuedNotice .profile .featured-img .Name {
+	height: 35px;
+	line-height: 35px;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 0px;
+	width: 302px;
+	z-index: 2;
+}
+.IssuedNotice .profile .featured-img .Name h3 a {
+	text-decoration: none;
+	padding-left: 5px;
+	color: white;
+	font-size: 18px;
+	line-height: 35px;
+}
+.IssuedNotice .profile .featured-img .Name h3 span {
+	color: #fff;
+	line-height: 35px;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+.IssuedNotice .profile .featured-img .Name .referrer {
+	position: absolute;
+	bottom: 2px;
+	right: 6px;
+	z-index: 3;
+	padding: 0px;
+	text-decoration: none;
+	font-size: 11px;
+	color: #fff;
+	background: none;
+	width: auto !important;
+	width: 97px;
+	min-width: 97px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	text-align: right;
+}
+.IssuedNotice .profile section.listCuisines {
+	background: #EEE;
+	width: auto;
+	height: 24px;
+	line-height: 24px;
+	margin: 0px auto 6px auto;
+	position: relative;
+}
+.IssuedNotice .profile section.listCuisines .cuisines {
+	background: url(../images/list-icon-sprite.png) no-repeat 4px 5px;
+	width: auto;
+	text-align: left;
+	display: block;
+	float: left;
+	padding-left: 20px;
+}
+.IssuedNotice .profile section.listCuisines .consumption {
+	width: auto;
+	text-align: right;
+	display: block;
+	float: right;
+	padding-right: 4px;
+	background: url(../images/list-icon-sprite.png) no-repeat 6px -19px;
+	padding-left: 20px;
+}
+#registerRight .IssuedNotice .profile .content {
+	line-height: 18px;
+	border-bottom: 1px dashed #DDD;
+}
+#registerRight .IssuedNotice .profile .ContactInfo {
+	border-bottom: none;
+	padding: 3px 11px 3px 11px;
+	margin: 0;
+	line-height: 18px;
+	font-size: 12px;
+	color: #333;
+}
+#registerRight .IssuedNotice .profile .ContactInfo li {
+	padding-left: 20px;
+}
+#registerRight .IssuedNotice .profile .ContactInfo li.telephone {
+	background: url(../images/list-icon-sprite.png) no-repeat 1px -46px;
+}
+#registerRight .IssuedNotice .profile .ContactInfo li.regional {
+	background: url(../images/list-icon-sprite.png) no-repeat 1px -70px;
+}
+#registerRight .IssuedNotice .profile section.comments {
+	background: none;
+	width: auto;
+	height: 34px;
+	line-height: 34px;
+	margin: 0px auto 3px auto;
+	position: relative;
+}
+#registerRight .IssuedNotice .profile section.comments a {
+	text-decoration: none;
+	display: block;
+	width: 138px;
+	height: 31px;
+	font-size: 16px;
+	color: #333;
+	text-indent: 44px;
+	line-height: 31px;
+	position: absolute;
+	background: url(../images/likeCommentsBtn.png) no-repeat;
+}
+#registerRight .IssuedNotice .profile section.comments a:hover {
+	background: url(../images/likeCommentsHover.png) no-repeat;
+}
+#registerRight .IssuedNotice .profile section.comments a.likeBtn, #registerRight .IssuedNotice .profile section.comments a:hover.likeBtn {
+	background-position: 0px 0px;
+	left: 0px;
+	top: 0px;
+}
+#registerRight .IssuedNotice .profile section.comments a.commentsBtn, #registerRight .IssuedNotice .profile section.comments a:hover.commentsBtn {
+	background-position: 0px -31px;
+	right: 0px;
+	top: 0px;
+}
+.select_box {
+	width: 90px;
+	display: inline-block;
+	position: relative;
+	margin: 5px auto;
+	padding: 0;
+	font-size: 12px;
+}
+.select_box input {
+	cursor: pointer;
+	display: block;
+	line-height: 22px;
+	width: 100%;
+	height: 22px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 2px 20px 2px 10px;
+	background: #fff url(../images/select_input_bg.gif) no-repeat 98px center;
+	margin-left: 0;
+}
+.select_box ul {
+	width: 120px;
+	position: absolute;
+	left: 0px;
+	top: 25px;
+	border: 1px solid #ccc;
+	background: #fff;
+	overflow: hidden;
+	display: none;
+	z-index: 99999;
+}
+.select_box ul li {
+	text-indent: 0px;
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	width: 100%;
+	cursor: pointer;
+	border-bottom: 1px solid #eee;
+}
+#registerRight .IssuedNotice .profile .Interested {
+	overflow: hidden;
+	padding: 4px;
+}
+#registerRight .IssuedNotice .profile .Interested li {
+	padding: 0 4px 2px 4px;
+	border-bottom: 1px dashed #eee;
+}
+#registerRight .IssuedNotice .profile .Interested li:last-of-type {
+	border-bottom: none;
+}
+#registerRight .IssuedNotice .profile .Interested li a {
+	color: #666;
+	width: auto;
+	display: block;
+	height: auto;
+}
+#registerRight .IssuedNotice .profile .Interested li a:hover {
+	color: #666;
+}
+/*回复信息那块*/
+
+.private-comment {
+	margin: 12px 0px 10px 0px;
+	padding: 10px 0px 0px 0px;
+	width: auto;
+	overflow: hidden;
+	border-radius: 5px;
+	background: #F3F3F3;
+	display: none;
+}
+.private-comment-top {
+	background: url(../images/timeline-bg.png) no-repeat left -325px;
+	width: 22px;
+	height: 15px;
+	position: absolute;
+	margin: -23px 0px 0px 891px;
+	clear: both;
+	display: block;
+}
+.private-box-title, .private-start {
+	border-bottom: #EBEBEB 1px solid;
+	padding-bottom: 8px;
+	line-height: 16px;
+}
+.private-box-title {
+	border: 0;
+	width: 872px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.private-comment .private-box-title .ui-textarea {
+	clear: both;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	float: left;
+	overflow: hidden;
+	border: #C2C2C2 1px solid;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background: white;
+}
+.ui-textarea-border {
+	border: #F9F9F9 1px solid;
+	border-top: #EEE 1px solid;
+	border-bottom: #F9F9F9 0px solid;
+	padding: 0px 0px 7px 0px;
+	background: url(../images/ui-textareabj.gif) no-repeat right bottom;
+	height: 100px;
+}
+.ui-textarea-border textarea {
+	overflow: hidden;
+	border: 0;
+	border-top: #F9F9F9 1px solid;
+	resize: none;
+	-webkit-appearance: none;
+	outline: none;
+	border-radius: 0px;
+	width: auto !important;
+	width: 860px;
+	min-width: 860px;
+	height: auto!important;
+	height: 96px;
+	min-height: 96px;
+	margin: 0px;
+	padding: 7px 0px 0px 7px;
+	line-height: 16px;
+	background: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+}
+.private-box-textarea-b {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	padding-top: 10px;
+	width: 860px;
+}
+.ui-button-green {
+	margin: 0px 0px 0px 5px;
+	background: url(../images/RestaurantPagesBtn4.png) no-repeat;
+	background-position: left -56px;
+	height: 28px;
+	display: block;
+	float: left;
+	border: 0px;
+	cursor: pointer;
+	width: auto;
+	overflow: hidden;
+	white-space: nowrap;
+	float: right;
+}
+.ui-button-green span {
+	height: 28px;
+	display: block;
+	float: left;
+	border: 0px;
+	cursor: pointer;
+	width: auto;
+	overflow: hidden;
+	white-space: nowrap;
+	background: url(../images/RestaurantPagesBtn4.png) no-repeat;
+	background-position: right 0px;
+	line-height: 28px;
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	font-size: 14px;
+	_display: inline;
+}
+.ui-button-green button {
+	background: none;
+	cursor: pointer;
+	width: auto;
+	overflow: visible;
+	white-space: nowrap;
+	border: 0;
+	float: left;
+	font-size: 14px;
+	line-height: 28px;
+	height: 28px;
+	font-size: 12px;
+	padding: 0 20px;
+	display: block;
+	margin: -1px 5px 0px 0px;
+	color: #F60;
+}
+.private-box-textarea-b .history {
+	float: left;
+	height: 28px;
+	width: auto;
+	line-height: 28px;
+}
+.private-box-textarea-b .history a {
+	color: #98D400;
+	text-decoration: none;
+}

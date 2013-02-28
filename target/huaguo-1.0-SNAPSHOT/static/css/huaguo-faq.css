@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*常见问题*/
+.faq {
+	padding-top: 20px;
+	height: auto;
+	width: auto;
+	/*overflow: hidden;*/
+	text-shadow: 0 1px 0 rgba(255,255,255,.2);
+	padding-bottom: 20px;
+}
+#help .container h3 {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 13px;
+	font: normal 20px/32px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 0 rgba(255,255,255,.6);
+	width: auto;
+	padding-left: 5px;
+}
+#help .container h3 strong {
+	padding-left:4px;
+	color: #f90;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .6);
+	font-size: 20px;
+}
+.faq-inner {
+	background: rgba(247,247,247,.2);
+	background: whiteSmoke;
+	text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	box-shadow: 0 1px 3px #ccc;
+	margin-top: 8px;
+	height: auto !important;
+	height: 468px;
+	min-height: 468px;
+	width: auto;
+}
+.tabbable {
+*zoom:1;
+	border: 1px solid #f5f5f5;
+}
+.tabbable:before, .tabbable:after {
+	display: table;
+	content: "";
+}
+.tabbable:after {
+	clear: both;
+}
+.tab-content {
+	display: table;
+	width: auto;
+}
+.faq-contents {
+	width: 644px;
+	padding: 20px 34px;
+	float: right;
+}
+.nav-tabs {
+	float: left;
+	margin: 0px;
+	border: none;
+	height: 100%;
+}
+div.tabbable ul li {
+	cursor: pointer;
+	color: #666;
+	margin-bottom: 0;
+	width: 240px;
+	font: 16px/24px "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	list-style: none;
+	padding: 12px 18px;
+	background: #eee;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #f5f5f5;
+	text-shadow: 0 1px 0 rgba(255,255,255,.7);
+}
+div.tabbable ul li.selected {
+	color: #FFF;
+	background: #b3b3b3;
+	border: none;
+	border-bottom: 1px solid #999;
+	text-shadow: 0 1px 0 rgba(0,0,0,.6);
+}
+div.tabbable ul li.hover {
+	background: #999;
+	color: #F90;
+	text-shadow: 0 1px 0 rgba(0,0,0,.6);
+}
+ul#tab {
+	height: 100%;
+	background: #858585;
+}
+.faq-content {
+	color: #666;
+	text-shadow: 0 1px 0 rgba(255,255,255,.9);
+}
+.faq-content h4 {
+	font: 21px/34px "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 9px auto;
+	padding-left: 10px;
+}
+.faq-content p {
+	line-height: 1.7;
+	font-size: 13px;
+	padding-left: 10px;
+}
+.faq-inner {
+	text-shadow: 0 1px 0 black;
+}
+.icon-answer {
+	width: 41px;
+	height: 41px;
+	float: left;
+}
