@@ -154,7 +154,7 @@ public class MessageEntity implements Serializable {
 		this.showDate = showDate;
 	}
 
-	@Column(name = "parentId",columnDefinition = "varchar(1) DEFAULT '0'")
+	@Column(name = "parentId")
 	public Long getParentId() {
 		return parentId;
 	}

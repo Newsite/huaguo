@@ -137,7 +137,6 @@ public class UserController {
 
 	/**
 	 * 用户站内注册
-	 * 
 	 * @return
 	 * @throws Exception
 	 */
@@ -174,7 +173,6 @@ public class UserController {
 				return resultMap;
 			}
 			
-			
 			UserEntity saveUser = new UserEntity();
 			saveUser.setEmail(user.getEmail());
 			md5 = new Md5Util();
@@ -200,7 +198,6 @@ public class UserController {
 			resultMap.put("result", "false");
 		}
 		return resultMap;
-
 	}
 
 	/**

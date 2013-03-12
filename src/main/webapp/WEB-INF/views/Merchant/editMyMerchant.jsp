@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <%@ include file="/static/page/jqueryMaster.jsp"%>
 <title>花果网-发现美食</title>
-<meta content="eric hui" name="author" />
+
 <meta
 	content="花果网,美食分享,分享我爱的餐厅,优惠券,发现美食,鲁菜,川菜,粤菜,闽菜,苏菜,浙菜,湘菜,徽菜中餐,自助餐,西餐,"
 	name="keywords" />

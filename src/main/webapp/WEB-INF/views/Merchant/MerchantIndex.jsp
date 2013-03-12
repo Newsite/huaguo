@@ -864,7 +864,7 @@
       <section id="content" class="columns twelve">
         <article
 					class="recommend"> <!-- restaurantMaximg.png -->
-          <div class="featured-img" style="height:375px;"> <img src="${ctx}<%=merchant.getImageUrl() %>" onerror="javascript:this.src='${ctx}/static/images/defaultMerchant.png';" width="588"
+          <div class="featured-img" style="height:375px;"> <img src="${ctx}/<%=merchant.getImageUrl() %>" onerror="javascript:this.src='${ctx}/static/images/defaultMerchant.png';" width="588"
 						height="375" class="attachment-featured" alt="" title="">
             <header class="post-title">
               <h2><%=merchant.getName()%></h2>

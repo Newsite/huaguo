@@ -175,12 +175,11 @@
 									
 								} else {
 								}
-								var imageUrl = ctx + merchantData[i].imageUrl;
 								var tr = "<tr><td><a href='javascript:void(0);' onclick='doPreview("
 										+ merchantData[i].merchantId
 										+ ","
 										+ merchantData[i].merchantStatus
-										+ ")'><img width='120px' height='80px' src='"+imageUrl+"' alt='' onerror=\"javascript:this.src='${ctx}/static/images/defaultMerchant.png';\"/></a></td><td><a href='javascript:void(0);' onclick='doPreview("
+										+ ")'><img width='120px' height='80px' src='${ctx}/"+merchantData[i].imageUrl+"' alt='' onerror=\"javascript:this.src='${ctx}/static/images/defaultMerchant.png';\"/></a></td><td><a href='javascript:void(0);' onclick='doPreview("
 										+ merchantData[i].merchantId
 										+ ","
 										+ merchantData[i].merchantStatus
@@ -223,7 +222,7 @@
 								}
 								var tr = "<tr><td><div class='RestaurantSet clearfix'><a href='javascript:void(0);' onclick='doPreviewDetail("
 										+ merchantData[i].merchantId
-										+ ")'><img src='"+imageUrl+"' width='120' height='70' alt='' onerror=\"javascript:this.src='${ctx}/static/images/defaultMerchant.png';\"/></a><h3 class='RestName'><a href='javascript:void(0);' onclick='doPreviewDetail("
+										+ ")'><img src='${ctx}/"+merchantData[i].imageUrl+"' width='120' height='70' alt='' onerror=\"javascript:this.src='${ctx}/static/images/defaultMerchant.png';\"/></a><h3 class='RestName'><a href='javascript:void(0);' onclick='doPreviewDetail("
 										+ merchantData[i].merchantId
 										+ ")'>"
 										+ merchantData[i].merchantName

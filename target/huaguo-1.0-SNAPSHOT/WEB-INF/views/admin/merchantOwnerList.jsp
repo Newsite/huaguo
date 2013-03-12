@@ -264,11 +264,12 @@
 	       	    			$('#linkMan').html(returnData['linkMan']);
 	       	    			$('#telephoneText').html(returnData['telephone']);
 	       	    			
-	       	    			$("#img_preview").attr("src", ctx +returnData['picUrl']);
+	       	    			$("#img_preview").attr("src", ctx+'/'+returnData['picUrl']);
 	       	    		    $("#img_preview").attr({width:'160', height:'90'});  
 	       	    		
 	       	    			var picUrl = "'"+returnData['picUrl']+"'" ;
-	       	    		 	var detailStr = '<a href="${ctx}/admin/merchantOwner/download/'+returnData['ownerId']+'" style="color: blue;">下载</a>   <a onclick="showOriginalPicUrl('+picUrl+',event);" onmouseout="hideOriginalList()" style="color: blue;">查看原图</a>';
+	       	    			//<a href="${ctx}/admin/merchantOwner/download/'+returnData['ownerId']+'" style="color: blue;">下载</a> 			
+	       	    		 	var detailStr = '  <a onclick="showOriginalPicUrl('+picUrl+',event);" onmouseout="hideOriginalList()" style="color: blue;">查看原图</a>';
 	       	    			$("#downOrView").append(detailStr);
 	       	    		}
 	       	    	});
@@ -302,7 +303,7 @@
     	$('#showOriginalImageHtml').html(customerHtml);
     	$('#showOriginalImageHtml').css('display', 'block');
     	
-    	$('#showOriginalImage').attr('src', ctx + picUrl);
+    	$('#showOriginalImage').attr('src', ctx+'/' + picUrl);
 	}
 	
 	function hideOriginalList(){

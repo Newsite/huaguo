@@ -73,8 +73,7 @@
 				<section id="content" class="columns twelve"> <article
 					class="recommend"> <!-- restaurantMaximg.png -->
 				<div class="featured-img">
-					<img src="${ctx}<%=merchant.getImageUrl() %>" width="588"
-						height="375" class="attachment-featured" alt="" title="">
+					<img src="${ctx}/<%=merchant.getImageUrl() %>" width="588" height="375" class="attachment-featured" alt="" title="">
 					<header class="post-title">
 					<h2><%=merchant.getName()%></h2>
 					</header>

@@ -32,7 +32,7 @@ public class CityDaoImpl extends GenericDaoImpl<CityEntity, String> implements I
 			hql.append(" where a.parentId='" + parentId + "' ");
 		}
 
-		hql.append(" order by a.sortNo DESC ");
+		hql.append(" order by a.sortNo asc ");
 
 		areaList = getHibernateTemplate().find(hql.toString());
 

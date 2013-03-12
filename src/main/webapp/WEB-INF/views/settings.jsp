@@ -90,6 +90,7 @@
 	function changeProvince()
 	{
 		var provinceId=$("#provinceId").val();
+		
 		$.post("${ctx}/user/getCityList?provinceId="+provinceId,null,function(data)
 		{								
 				getCity(data.cityList,null);

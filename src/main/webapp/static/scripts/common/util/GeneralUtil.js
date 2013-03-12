@@ -234,7 +234,7 @@ function getUserImageUrl(_url, def) {
 			&& _url.indexOf("gtimg") == -1 
 			&& _url.indexOf('http://') == -1
 			) {
-			_url = ctx+_url;
+			_url = ctx+'/'+_url;
 		}
 	} else {
 		if(def==null || def==48){

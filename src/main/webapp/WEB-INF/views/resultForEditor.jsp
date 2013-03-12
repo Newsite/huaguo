@@ -5,6 +5,7 @@
 	Object url = request.getAttribute("url");
 	JSONObject obj = new JSONObject();
 	obj.put("error", error);
+	System.out.println(url);
 	obj.put("url", url);
 	out.println(obj.toJSONString());
 %>

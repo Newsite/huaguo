@@ -13,7 +13,6 @@
 <meta content="花果网,美食分享,分享我爱的餐厅,优惠券,发现美食,鲁菜,川菜,粤菜,闽菜,苏菜,浙菜,湘菜,徽菜中餐,自助餐,西餐" name="keywords" />
 <meta content="花果网,是一个发起美食引导消费的平台,来到花果,开发结果！" name="description" />
 <meta content="all" name="robots" /> 
-
 <script type="text/javascript" src="${ctx}/static/scripts/index/jquery.featureList-1.0.0.js"></script>
 <script type="text/javascript" src="${ctx}/static/scripts/index/searchValue.js"></script>
 <script type="text/javascript" src="${ctx}/static/scripts/index/jquery.fixed.js"></script>

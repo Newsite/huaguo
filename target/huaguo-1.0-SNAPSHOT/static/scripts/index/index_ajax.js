@@ -145,7 +145,7 @@ $(document).ready(function() {
 								
 								thtml+='<a href="javascript:void(0);" title="" onclick="javascript:window.location=\''+ctx;
 								thtml+='/MerchantView/MerchantIndex/'+ret.list[i].merchantId+'\';">';
-								thtml+='<img width="302" height="183" class="lazy" src=\''+ctx+'/static/images/defaultMerchant.png\' data-original="'+ctx+ret.list[i].imageUrl;
+								thtml+='<img width="302" height="183" class="lazy" src=\''+ctx+'/static/images/defaultMerchant.png\' data-original="'+ctx+"/"+ret.list[i].imageUrl;
 								thtml+='" class="" onerror="javascript:this.src=\''+ctx+'/static/images/defaultMerchant.png\';" alt="'+ret.list[i].name+'图片" title="'+ret.list[i].name+'"></a>';
 								thtml+='<div class="Name"><h3><a href="javascript:void(0);" onclick="javascript:window.location=\''+ctx;
 								thtml+='/MerchantView/MerchantIndex/'+ret.list[i].merchantId+'\';">'+generalUtil.strForShort(ret.list[i].name, 20, false)+'</a></h3>';

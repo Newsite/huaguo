@@ -19,11 +19,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<url>http://192.168.1.196:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 		<repository>
 			<id>releases</id>
-			<url>http://192.168.1.196:8081/nexus/content/repositories/releases/</url>
+			<url>http://localhost:8081/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>
 
@@ -205,6 +205,11 @@
 			<version>1.4.1</version>
 		</dependency>
 
+		<dependency>
+			<groupId>hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>1.8.0.10</version>
+		</dependency>
 	</dependencies>
 
 	<build>

@@ -93,7 +93,7 @@
 						$('#tabs').append(tlihtml);
 
 						olihtml = '';
-						olihtml = '<li><img src="${ctx }'+ret.list[i].imageUrl+'" onclick="javascript:window.location=\''+ctx;
+						olihtml = '<li><img src="${ctx }/'+ret.list[i].imageUrl+'" onclick="javascript:window.location=\''+ctx;
 						olihtml+='/MerchantView/MerchantIndex/'+ret.list[i].merchantId+'\';" style="cursor:pointer;" height="308" width="530" onload="newDrawImage(this,530,308)" />';
 						if (ret.list[i].user != null) {
 							olihtml += '<a class="shops" style="color: #333333;cursor: default;" href="javascript:void(0);">' + generalUtil.strForShort(ret.list[i].user.nickName, 16) + ' 推荐';
